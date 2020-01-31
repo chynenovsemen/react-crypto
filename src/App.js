@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useReducer } from 'react';
+import { CryptoContext } from './context/CryptoContext';
+import cryptoReducer from './reducers/cryptoReducer';
+import CryptoTable from './components/CryptoTable';
+import SearchInput from './components/SearchInput';
 
-function App() {
+export default function App() {
+  const initialState = {
+    cryptoList: [],
+    cryptoToDisplay: [],
+    // logos: [],
+    error: '',
+    isLoading: true,
+  };
+
+  const [state, dispatch] = useReducer(cryptoReducer, initialState);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CryptoContext.Provider value={{state, dispatch}}>
+      <div className='container'>
+        <SearchInput />
+        <CryptoTable />
+      </div>
+    </CryptoContext.Provider>
   );
 }
-
-export default App;
