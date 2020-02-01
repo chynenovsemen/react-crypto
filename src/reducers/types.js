@@ -1,6 +1,4 @@
 export const SET_CRYPTO_LIST = 'SET_CRYPTO_LIST',
              SET_CRYPTO_TO_DISPLAY = 'SET_CRYPTO_TO_DISPLAY',
-             SET_DIRECTION = 'SET_DIRECTION',
-             SET_LOGOS = 'SET_LOGOS',
-             SET_IS_LOADING = 'SET_IS_LOADING',
+            //  SET_LOGOS = 'SET_LOGOS',
              SET_ERROR = 'SET_ERROR';

@@ -10,7 +10,6 @@ export default function App() {
     cryptoToDisplay: [],
     // logos: [],
     error: '',
-    isLoading: true,
   };
 
   const [state, dispatch] = useReducer(cryptoReducer, initialState);
