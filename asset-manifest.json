@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-crypto/public/static/css/main.c1db6945.chunk.css",
-    "main.js": "/react-crypto/public/static/js/main.dd7f6add.chunk.js",
-    "main.js.map": "/react-crypto/public/static/js/main.dd7f6add.chunk.js.map",
-    "runtime-main.js": "/react-crypto/public/static/js/runtime-main.c479c5fe.js",
-    "runtime-main.js.map": "/react-crypto/public/static/js/runtime-main.c479c5fe.js.map",
-    "static/js/2.41492f85.chunk.js": "/react-crypto/public/static/js/2.41492f85.chunk.js",
-    "static/js/2.41492f85.chunk.js.map": "/react-crypto/public/static/js/2.41492f85.chunk.js.map",
-    "index.html": "/react-crypto/public/index.html",
-    "precache-manifest.98bcb0389b292bea3213dd5b71598934.js": "/react-crypto/public/precache-manifest.98bcb0389b292bea3213dd5b71598934.js",
-    "service-worker.js": "/react-crypto/public/service-worker.js",
-    "static/css/main.c1db6945.chunk.css.map": "/react-crypto/public/static/css/main.c1db6945.chunk.css.map",
-    "static/js/2.41492f85.chunk.js.LICENSE": "/react-crypto/public/static/js/2.41492f85.chunk.js.LICENSE"
+    "main.css": "/react-crypto/build/static/css/main.c1db6945.chunk.css",
+    "main.js": "/react-crypto/build/static/js/main.a1d4d77b.chunk.js",
+    "main.js.map": "/react-crypto/build/static/js/main.a1d4d77b.chunk.js.map",
+    "runtime-main.js": "/react-crypto/build/static/js/runtime-main.c5e0c78b.js",
+    "runtime-main.js.map": "/react-crypto/build/static/js/runtime-main.c5e0c78b.js.map",
+    "static/js/2.41492f85.chunk.js": "/react-crypto/build/static/js/2.41492f85.chunk.js",
+    "static/js/2.41492f85.chunk.js.map": "/react-crypto/build/static/js/2.41492f85.chunk.js.map",
+    "index.html": "/react-crypto/build/index.html",
+    "precache-manifest.ecd53e7ba342350b9bccfcd8e5ce962c.js": "/react-crypto/build/precache-manifest.ecd53e7ba342350b9bccfcd8e5ce962c.js",
+    "service-worker.js": "/react-crypto/build/service-worker.js",
+    "static/css/main.c1db6945.chunk.css.map": "/react-crypto/build/static/css/main.c1db6945.chunk.css.map",
+    "static/js/2.41492f85.chunk.js.LICENSE": "/react-crypto/build/static/js/2.41492f85.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.c479c5fe.js",
+    "static/js/runtime-main.c5e0c78b.js",
     "static/js/2.41492f85.chunk.js",
     "static/css/main.c1db6945.chunk.css",
-    "static/js/main.dd7f6add.chunk.js"
+    "static/js/main.a1d4d77b.chunk.js"
   ]
 }
