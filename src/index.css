@@ -31,7 +31,19 @@ code {
 	}
 }
 
-@media (max-width: 370px) {
+@media (max-width: 375px) {
+	body {
+		font-size: 7px;
+	}
+}
+
+@media (max-width: 360px) {
+	body {
+		font-size: 6px;
+	}
+}
+
+@media (max-width: 3332px) {
 	body {
 		font-size: 5px;
 	}
